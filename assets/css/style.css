@@ -1,97 +1,53 @@
-/* HTML Elements */
-html {
-	position: relative;
-}
+
 html, body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 34px;
-    color: #777777;
-	background-color: #d1d1e0;
-	background: #efefef url("../images/sand.png");
-}
-  /* Layout */
-/* Header */
-header {
-	width: 960px;
-	height: auto;
-	border-bottom: 2px solid #cccccc;
-	background-color: #ffffff;
-}
-
-header .container {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.name, .nav {
-	display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
-}
-
-.name {
-	width: 50%;
-}
-
-.logo {
-	display: inline-block;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	font-weight: bold;
-	font-size: 2em;
-	letter-spacing: 0.04em;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	padding: 1em;
-	width: auto;
-}
-
-  /*general*/
-  
-  .container {
-    clear: both;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-weight: 700;
-  }
-  
-  h1 {
-    padding-bottom: 20px;
-    padding-left:20px;
-    font-size: 30px;
-    line-height: 49px;
-    color: #372f6a;
-  }
-  
-  h2,
-  h3 {
-    font-size: 22px;
-  }
-  
-  /*Main*/
-  .main-container {
-    margin-top:40px;
-    padding:40px;
-    float: left;
-  }
-  
-  
-  /*footer*/
-  
-  footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #33334d;
+	color: #777777;
+	background-color: #efefef;
+	background: #efefef url("../images/bananas.png");
     text-align: center;
   }
-  
-  
+
+  .jumbotron{
+      background: rgba(0, 0, 0, .8);
+      color: #efefef;
+  }
+
+  h1{
+      text-align: center;
+      height: 50px;
+      margin: 10px 10px 10px 10px;
+  }
+
+  p{
+    text-align: center;
+    font-family: initial; 
+    padding-top: 15px;
+  }
+.radio-inline{
+    font-size: 20px;
+}
+
+#timeRemain, h2{
+    font-size: 55px;
+    color:  #efefef;
+    margin-bottom: 30px;
+}
+
+#formQuiz, #quizResults{
+    font-size: 30px;
+    color:  #efefef;
+    background: rgba(0, 0, 0, .8);
+}
+
+#submitQuiz, #startQuiz{
+    font-size: 30px;
+    padding: 30px 100px 30px 100px;
+    margin: 10px 0px 10px 0px;
+}
+
+.mark, mark {
+    padding: .2em;
+    background: rgba(0, 0, 0, .8);
+    color: red;
+
+}
